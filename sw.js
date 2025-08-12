@@ -1,4 +1,4 @@
-const CACHE = 'ppwa-cache-v2';
+const CACHE = 'ppwa-cache-v3';
 const ASSETS = [
   'index.html','styles.css','app.js',
   'modules/jobs.js','modules/calc.js','modules/notes.js','modules/board.js','modules/cloud.js','config.js',

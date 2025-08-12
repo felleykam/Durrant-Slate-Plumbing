@@ -66,6 +66,7 @@ function updateStatus() {
 window.addEventListener('online', updateStatus);
 window.addEventListener('offline', updateStatus);
 updateStatus();
+try{ document.getElementById('jsStatus')?.remove(); }catch(_){}
 function renderGloveToggle(){
   const header = document.querySelector('.app-header');
   if(!header) return;
